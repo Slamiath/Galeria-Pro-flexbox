@@ -60,8 +60,8 @@ a:hover {
 
 a:active {
    color: rgb(247, 188, 188);
-    transform: scale(0.95);/*le lien rétrécit légèrement au clic*/
-   display: inline-block;/*Nécessaire pour que transform fonctionne*/
+    transform: scale(0.95);
+   display: inline-block;
 }
 
 .container {
@@ -143,13 +143,11 @@ a:active {
         align-items: center;
     }
 
-    /* On ajuste la largeur des cartes pour qu'elles prennent plus de place */
     .imagesContainer, .imagesContainer img {
         width: 90%; 
         margin-bottom: 20px;
     }
-    
-    
+     
     .imagesContainer h1, .imagesContainer p {
         font-size: 1.5rem;
     }
